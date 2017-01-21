@@ -140,7 +140,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e558b5367e8454666bd8a88652a11879, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6c1300bd4342e44cdb49f064f9b849b3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -151,7 +151,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 525447885}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.283331, y: -2.31427, z: 44.49105}
+  m_LocalPosition: {x: -7.44, y: -0.58, z: 44.49105}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -165,11 +165,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 525447885}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a58b18fb3763e4922bec7b907ca928e5, type: 3}
+  m_Script: {fileID: 11500000, guid: a0d6c4cbefbdb461584ab5d7ab0f4822, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 5
-  AngularSpeed: 0.1
+  Speed: 3
+  AngularSpeed: 0.5
 --- !u!96 &525447889
 TrailRenderer:
   serializedVersion: 2
@@ -373,4 +373,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf0a5734dc1944065a7df6fe59d24dbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 525447885}
