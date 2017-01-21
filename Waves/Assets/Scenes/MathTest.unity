@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 3
-  AngularSpeed: 0.5
+  AngularSpeed: 1
   _maxAngle: 60
 --- !u!96 &525447889
 TrailRenderer:

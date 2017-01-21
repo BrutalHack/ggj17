@@ -33,13 +33,13 @@ public class MovePlayer : MonoBehaviour
     void FixedUpdate()
     {
         Debug.Log(_rigidbody.rotation);
-        if (_movingUp && (_rigidbody.rotation < 60 || _rigidbody.rotation > 270))
+        if (_movingUp && _rigidbody.rotation < 60 )
         {
-            _rigidbody.MoveRotation((_rigidbody.rotation + targetAngle) * Time.fixedDeltaTime * AngularSpeed);
+            _rigidbody.MoveRotation(_rigidbody.rotation + targetAngle * Time.fixedDeltaTime * AngularSpeed);
         }
-        else if (!_movingUp && (_rigidbody.rotation < 90 || _rigidbody.rotation > 300))
+        else if (!_movingUp && _rigidbody.rotation > -60 )
         {
-            _rigidbody.MoveRotation((_rigidbody.rotation + targetAngle) * Time.fixedDeltaTime * AngularSpeed);
+            _rigidbody.MoveRotation(_rigidbody.rotation + targetAngle * Time.fixedDeltaTime * AngularSpeed);
         }
         _rigidbody.velocity = transform.right * Speed;
     }
