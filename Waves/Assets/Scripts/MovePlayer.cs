@@ -8,6 +8,7 @@ public class MovePlayer : MonoBehaviour
     private Rigidbody2D _rigidbody;
     public float _maxAngle = 60;
     private float targetAngle;
+    private bool _dead;
 
     void Awake()
     {
@@ -16,14 +17,20 @@ public class MovePlayer : MonoBehaviour
 
     void Start()
     {
+        setup();
+    }
+
+    private void setup()
+    {
         targetAngle = 60;
         _rigidbody.velocity = Vector3.right;
         _movingUp = true;
+        _dead = false;
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (!_dead && Input.GetKeyDown(KeyCode.Space))
         {
             targetAngle = -targetAngle;
             _movingUp = !_movingUp;
@@ -32,15 +39,21 @@ public class MovePlayer : MonoBehaviour
 
     void FixedUpdate()
     {
-        Debug.Log(_rigidbody.rotation);
-        if (_movingUp && _rigidbody.rotation < 60 )
+        if (_dead) return;
+        if (_movingUp && _rigidbody.rotation < 60)
         {
             _rigidbody.MoveRotation(_rigidbody.rotation + targetAngle * Time.fixedDeltaTime * AngularSpeed);
         }
-        else if (!_movingUp && _rigidbody.rotation > -60 )
+        else if (!_movingUp && _rigidbody.rotation > -60)
         {
             _rigidbody.MoveRotation(_rigidbody.rotation + targetAngle * Time.fixedDeltaTime * AngularSpeed);
         }
         _rigidbody.velocity = transform.right * Speed;
+    }
+
+    public void Die()
+    {
+        _dead = true;
+        _rigidbody.velocity = Vector2.zero;
     }
 }
