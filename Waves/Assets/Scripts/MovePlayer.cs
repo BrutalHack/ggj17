@@ -39,7 +39,10 @@ public class MovePlayer : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (_dead) return;
+        if (_dead)
+        {
+            return;
+        }
         if (_movingUp && _rigidbody.rotation < 60)
         {
             _rigidbody.MoveRotation(_rigidbody.rotation + targetAngle * Time.fixedDeltaTime * AngularSpeed);
