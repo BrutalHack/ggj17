@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4589024624254986}
   - component: {fileID: 212978956862813430}
-  - component: {fileID: 61564180578721216}
+  - component: {fileID: 65054771774693026}
   m_Layer: 8
   m_Name: TopBorder
   m_TagString: Untagged
@@ -37,7 +37,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4378339131792594}
   - component: {fileID: 212840902699760340}
-  - component: {fileID: 61897012560980326}
+  - component: {fileID: 65511900669246566}
   m_Layer: 8
   m_Name: BottemBorder
   m_TagString: Untagged
@@ -54,7 +54,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4756648110014142}
   - component: {fileID: 212200411022429882}
-  - component: {fileID: 61787638439999426}
+  - component: {fileID: 65899073735636654}
   m_Layer: 8
   m_Name: Obstacle04
   m_TagString: Untagged
@@ -71,7 +71,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4904979004727542}
   - component: {fileID: 212813415082788808}
-  - component: {fileID: 61888990021277756}
+  - component: {fileID: 65376720802270000}
   m_Layer: 8
   m_Name: Obstacle05
   m_TagString: Untagged
@@ -103,7 +103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4750080266510262}
   - component: {fileID: 212535574243330426}
-  - component: {fileID: 61225377839448490}
+  - component: {fileID: 65390395870781850}
   m_Layer: 8
   m_Name: Obstacle02
   m_TagString: Untagged
@@ -136,7 +136,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4737687593940818}
   - component: {fileID: 212806317226629940}
-  - component: {fileID: 61327202030018488}
+  - component: {fileID: 65538039105973142}
   m_Layer: 8
   m_Name: Obstacle03
   m_TagString: Untagged
@@ -153,7 +153,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4479800994556202}
   - component: {fileID: 212290254002645284}
-  - component: {fileID: 61739769147831544}
+  - component: {fileID: 65210058575473140}
   m_Layer: 8
   m_Name: Obstacle01
   m_TagString: Untagged
@@ -286,104 +286,90 @@ Transform:
   m_Father: {fileID: 4749767096987420}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &61225377839448490
-BoxCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1808858152428660}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.99999994, y: 1}
---- !u!61 &61327202030018488
-BoxCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1920282446074086}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
---- !u!61 &61564180578721216
-BoxCollider2D:
+--- !u!65 &65054771774693026
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1016001529102638}
-  m_Enabled: 1
-  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2048, y: 20}
---- !u!61 &61739769147831544
-BoxCollider2D:
+  m_Size: {x: 2048, y: 20, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65210058575473140
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1921248304713082}
-  m_Enabled: 1
-  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1, y: 0.99999994}
---- !u!61 &61787638439999426
-BoxCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1312663089374688}
   m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
---- !u!61 &61888990021277756
-BoxCollider2D:
+  m_Size: {x: 1, y: 0.99999994, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65376720802270000
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1390837961565350}
-  m_Enabled: 1
-  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
---- !u!61 &61897012560980326
-BoxCollider2D:
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65390395870781850
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1808858152428660}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65511900669246566
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1090906246885698}
-  m_Enabled: 1
-  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2048, y: 20}
+  m_Size: {x: 2048, y: 20, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65538039105973142
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1920282446074086}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65899073735636654
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1312663089374688}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &212200411022429882
 SpriteRenderer:
   m_ObjectHideFlags: 1
