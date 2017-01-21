@@ -11,7 +11,7 @@ public class DieOnCollision : MonoBehaviour
         _layerIndex = LayerMask.NameToLayer("Obstacle");
     }
 
-    void OnCollisionEnter2D(Collision2D coll)
+    void OnCollisionEnter(Collision coll)
     {
         if (coll.gameObject.layer == _layerIndex)
         {
