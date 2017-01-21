@@ -51,7 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5ebcbbba078647469c0068e738cf169, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  Player: {fileID: 1269027512013556, guid: dd2e3db435b2248a892aecdf9b6c0666, type: 2}
   StartPrefab: {fileID: 1412111966060364, guid: cfcdd13a91f06434888b1574ca6a7a80,
     type: 2}
   StartMultiplier: -0.1
@@ -60,5 +60,4 @@ MonoBehaviour:
   - {fileID: 1074688851131486, guid: effca33bf3bff674fa827d86b13aeb49, type: 2}
   - {fileID: 1256474023625652, guid: 1bc0043678834c140b8ef1032b92850d, type: 2}
   - {fileID: 1904596677469542, guid: b8d06c9d4f862754c93dfbdbc73caddd, type: 2}
-  playerPosition: 0
   _partUpdatePositionX: 0

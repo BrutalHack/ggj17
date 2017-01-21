@@ -5,12 +5,10 @@ using Random = System.Random;
 
 public class Background : MonoBehaviour
 {
-    public GameObject player;
+    public GameObject Player;
     public GameObject StartPrefab;
     public float StartMultiplier = -0.1f;
     public GameObject[] PartPrefabs;
-    //TODO remove
-    public float playerPosition = 0f;
     private Random _random = new Random();
     private List<GameObject> _existingParts = new List<GameObject>();
     private int _id;
@@ -39,9 +37,7 @@ public class Background : MonoBehaviour
 
     private float GetPlayerPositionX()
     {
-        //TODO switch
-        return playerPosition;
-        //return player.transform.position.x;
+        return Player.transform.position.x;
     }
 
     private void CreateStartPart()
