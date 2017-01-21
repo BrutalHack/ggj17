@@ -37,7 +37,11 @@ public class Background : MonoBehaviour
 
     private float GetPlayerPositionX()
     {
-        return Player.transform.position.x;
+        if (Player != null)
+        {
+            return Player.transform.position.x;
+        }
+        return 0f;
     }
 
     private void CreateStartPart()

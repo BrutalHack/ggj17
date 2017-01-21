@@ -6,8 +6,11 @@ public class CompleteCameraController : MonoBehaviour
 
     void LateUpdate()
     {
-        var transformPosition = transform.position;
-        transformPosition.x = Player.transform.position.x;
-        transform.position = transformPosition;
+        if (Player != null)
+        {
+            var transformPosition = transform.position;
+            transformPosition.x = Player.transform.position.x;
+            transform.position = transformPosition;
+        }
     }
 }
