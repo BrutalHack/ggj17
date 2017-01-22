@@ -179,10 +179,10 @@ TrailRenderer:
     colorGradient:
       key0:
         serializedVersion: 2
-        rgba: 4280418048
+        rgba: 4278255419
       key1:
         serializedVersion: 2
-        rgba: 4278255601
+        rgba: 65535
       key2:
         serializedVersion: 2
         rgba: 65521
@@ -322,7 +322,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -177552758
+  randomSeed: 1352408307
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -397,10 +397,10 @@ ParticleSystem:
       maxGradient:
         key0:
           serializedVersion: 2
-          rgba: 4278255580
+          rgba: 4278255419
         key1:
           serializedVersion: 2
-          rgba: 4281859840
+          rgba: 4278255615
         key2:
           serializedVersion: 2
           rgba: 0
@@ -2911,7 +2911,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1951624732
+  randomSeed: 950297295
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -2998,10 +2998,10 @@ ParticleSystem:
       maxGradient:
         key0:
           serializedVersion: 2
-          rgba: 4294967295
+          rgba: 4278255419
         key1:
           serializedVersion: 2
-          rgba: 4294967295
+          rgba: 4278255615
         key2:
           serializedVersion: 2
           rgba: 0
@@ -3084,8 +3084,8 @@ ParticleSystem:
         m_NumColorKeys: 2
         m_NumAlphaKeys: 2
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 1, b: 1, a: 1}
-      minMaxState: 0
+      maxColor: {r: 0.23137255, g: 1, b: 0, a: 1}
+      minMaxState: 1
     startSize:
       scalar: 0.2
       maxCurve:

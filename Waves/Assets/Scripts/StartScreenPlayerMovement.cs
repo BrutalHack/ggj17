@@ -26,10 +26,6 @@ public class StartScreenPlayerMovement: MonoBehaviour
 
     void Update()
     {
-        if (!_dead && (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)))
-        {
-            _movingUp = !_movingUp;
-        }
     }
 
     void FixedUpdate()

@@ -128,18 +128,8 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4318751875980576, guid: dd2e3db435b2248a892aecdf9b6c0666, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 114793110508000462, guid: dd2e3db435b2248a892aecdf9b6c0666,
-        type: 2}
-      propertyPath: pcDied
-      value: 
-      objectReference: {fileID: 2037982799}
-    - target: {fileID: 114793110508000462, guid: dd2e3db435b2248a892aecdf9b6c0666,
-        type: 2}
-      propertyPath: mobileDied
-      value: 
-      objectReference: {fileID: 2037982798}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd2e3db435b2248a892aecdf9b6c0666, type: 2}
   m_IsPrefabParent: 0
@@ -203,7 +193,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &555418796
 GameObject:
@@ -253,7 +243,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &951315924
 Prefab:
@@ -507,7 +497,7 @@ Prefab:
     - target: {fileID: 224953137605112666, guid: b05dad4719b3f0647800255bae1d0818,
         type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224953137605112666, guid: b05dad4719b3f0647800255bae1d0818,
         type: 2}
@@ -572,13 +562,3 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b05dad4719b3f0647800255bae1d0818, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &2037982798 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1802139676105674, guid: b05dad4719b3f0647800255bae1d0818,
-    type: 2}
-  m_PrefabInternal: {fileID: 2037982797}
---- !u!1 &2037982799 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1965263370525118, guid: b05dad4719b3f0647800255bae1d0818,
-    type: 2}
-  m_PrefabInternal: {fileID: 2037982797}
