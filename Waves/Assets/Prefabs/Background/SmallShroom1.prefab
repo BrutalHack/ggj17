@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4532091814887610}
   - component: {fileID: 212088217744252094}
   - component: {fileID: 135735105283794092}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pilze_klein1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37,7 +37,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4473789831668556}
   - component: {fileID: 135031845867633822}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52,7 +52,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4261957297248100}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SmallShroom1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,7 +68,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4582501467384028}
   - component: {fileID: 65969061090797462}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82,7 +82,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1353742653754072}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -56.03562, y: 36.594704, z: 0}
+  m_LocalPosition: {x: 150.93083, y: -135.58714, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4532091814887610}
@@ -195,7 +195,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: -1876975899
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: a262093c69188474cb3152158ffbea3e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
