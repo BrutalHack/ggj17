@@ -57,9 +57,11 @@ MonoBehaviour:
   StartMultiplier: -0.1
   PartPrefabs:
   - {fileID: 1585933678344588, guid: 948c2cae2f1ecbe4f88494c70d4d91de, type: 2}
-  - {fileID: 1585933678344588, guid: 948c2cae2f1ecbe4f88494c70d4d91de, type: 2}
-  - {fileID: 1256474023625652, guid: 1bc0043678834c140b8ef1032b92850d, type: 2}
-  - {fileID: 1904596677469542, guid: b8d06c9d4f862754c93dfbdbc73caddd, type: 2}
+  - {fileID: 1312673420471358, guid: 233347988bb72054ca756120a4af3f8a, type: 2}
+  - {fileID: 1633707612898608, guid: e61651cb8d2e0494fbfda9b772c79c17, type: 2}
+  - {fileID: 1290877858458876, guid: dee8b5508d8bf4e2d82929fb5d8596fd, type: 2}
+  - {fileID: 1292549296820656, guid: 7de3a6c88515d4e61b2cb019c55d31ca, type: 2}
+  - {fileID: 1649148684145766, guid: 90f597edcff844eb3bfbbdf8fa71ac27, type: 2}
   BackgroundSprites:
   - {fileID: 21300000, guid: de357fc11636d5c4181e03eb3f0a65b6, type: 3}
   - {fileID: 21300000, guid: 89817bc82c12c0447a8fc4fe8f2ffda6, type: 3}
