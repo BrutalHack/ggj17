@@ -5,7 +5,7 @@ using Random = System.Random;
 
 public class Background : MonoBehaviour
 {
-    public GameObject Player;
+    public MovePlayer Player;
     public GameObject StartPrefab;
     public float StartMultiplier = -0.1f;
     public GameObject[] PartPrefabs;
@@ -32,6 +32,7 @@ public class Background : MonoBehaviour
         {
             DestroyOldestPart();
             AppendRandomPart();
+            Player.IncreaseSpeed();
         }
     }
 

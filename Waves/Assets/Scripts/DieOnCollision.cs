@@ -7,6 +7,8 @@ public class DieOnCollision : MonoBehaviour
     private int _layerIndex;
     private MovePlayer _movePlayer;
     private bool _canRestart;
+    public GameObject pcDied;
+    public GameObject mobileDied;
 
     void Awake()
     {
@@ -25,11 +27,12 @@ public class DieOnCollision : MonoBehaviour
 
     void Update()
     {
-        if (_canRestart && Input.GetKeyDown(KeyCode.Space))
+        if (_canRestart && (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)))
         {
-           SceneManager.LoadScene("Game");
+            SceneManager.LoadScene("Game");
         }
     }
+
     private void Die()
     {
         _movePlayer.Die();
@@ -40,5 +43,13 @@ public class DieOnCollision : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
         _canRestart = true;
+        if (Application.isMobilePlatform)
+        {
+            mobileDied.SetActive(true);
+        }
+        else
+        {
+            pcDied.SetActive(true);
+        }
     }
 }

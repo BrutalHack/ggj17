@@ -4,6 +4,7 @@ public class MovePlayer : MonoBehaviour
 {
     private bool _movingUp;
     public float Speed = 1;
+    public float SpeedIncrease = 1;
     public float AngularSpeed = 1;
     private Rigidbody _rigidbody;
     public float _maxAngle = 60;
@@ -17,11 +18,6 @@ public class MovePlayer : MonoBehaviour
 
     void Start()
     {
-        setup();
-    }
-
-    private void setup()
-    {
         _targetAngle = 60;
         _rigidbody.velocity = Vector3.right;
         _movingUp = true;
@@ -30,7 +26,7 @@ public class MovePlayer : MonoBehaviour
 
     void Update()
     {
-        if (!_dead && Input.GetKeyDown(KeyCode.Space))
+        if (!_dead && (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)))
         {
             _targetAngle = -_targetAngle;
             _movingUp = !_movingUp;
@@ -56,6 +52,10 @@ public class MovePlayer : MonoBehaviour
         _rigidbody.velocity = transform.right * Speed;
     }
 
+    public void IncreaseSpeed()
+    {
+        Speed += SpeedIncrease;
+    }
     public void Die()
     {
         _dead = true;
