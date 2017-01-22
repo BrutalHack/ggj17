@@ -13,6 +13,7 @@ public class MovePlayer : MonoBehaviour
     private bool _dead;
     public ParticleSystem DeathParticleSystem;
     public ParticleSystem GlowParticleSystem;
+    public float AngularSpeedIncrease;
 
     void Awake()
     {
@@ -55,14 +56,16 @@ public class MovePlayer : MonoBehaviour
 
     private void RotatePlayer()
     {
-        Quaternion deltaRotation = Quaternion.Euler(0, 0, _targetAngle * Time.deltaTime * AngularSpeed);
+        Quaternion deltaRotation = Quaternion.Euler(0, 0, _targetAngle * Time.fixedDeltaTime * AngularSpeed);
         _rigidbody.MoveRotation(_rigidbody.rotation * deltaRotation);
     }
 
     public void IncreaseSpeed()
     {
         Speed += SpeedIncrease;
+        AngularSpeed += AngularSpeedIncrease;
     }
+
     public void Die()
     {
         _dead = true;

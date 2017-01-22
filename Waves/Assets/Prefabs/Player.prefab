@@ -377,11 +377,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 200
-  SpeedIncrease: 100
-  AngularSpeed: 1.5
+  SpeedIncrease: 50
+  AngularSpeed: 1.75
   _maxAngle: 60
   DeathParticleSystem: {fileID: 198704115059998772}
   GlowParticleSystem: {fileID: 198871750356546100}
+  AngularSpeedIncrease: 0.25
 --- !u!114 &114793110508000462
 MonoBehaviour:
   m_ObjectHideFlags: 1
