@@ -11,6 +11,8 @@ public class MovePlayer : MonoBehaviour
     public float _maxAngle = 60;
     private float _targetAngle;
     private bool _dead;
+    public ParticleSystem DeathParticleSystem;
+    public ParticleSystem GlowParticleSystem;
 
     void Awake()
     {
@@ -64,6 +66,11 @@ public class MovePlayer : MonoBehaviour
     public void Die()
     {
         _dead = true;
+        GetComponent<SpriteRenderer>().enabled = false;
+        _rigidbody.isKinematic = true;
+        DeathParticleSystem.Play(true);
+        GlowParticleSystem.Stop(true);
+
         _rigidbody.velocity = Vector2.zero;
     }
 }

@@ -100,11 +100,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4318751875980576, guid: dd2e3db435b2248a892aecdf9b6c0666, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -831
+      value: -1563
       objectReference: {fileID: 0}
     - target: {fileID: 4318751875980576, guid: dd2e3db435b2248a892aecdf9b6c0666, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4318751875980576, guid: dd2e3db435b2248a892aecdf9b6c0666, type: 2}
       propertyPath: m_LocalPosition.z
@@ -231,6 +231,7 @@ MonoBehaviour:
   - {fileID: 1074688851131486, guid: effca33bf3bff674fa827d86b13aeb49, type: 2}
   - {fileID: 1256474023625652, guid: 1bc0043678834c140b8ef1032b92850d, type: 2}
   - {fileID: 1904596677469542, guid: b8d06c9d4f862754c93dfbdbc73caddd, type: 2}
+  BackgroundSprites: []
   _partUpdatePositionX: 0
 --- !u!4 &555418798
 Transform:
