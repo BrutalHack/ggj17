@@ -33,6 +33,6 @@ public class Score : MonoBehaviour
         {
             return "0";
         }
-        return score.ToString("n2");
+        return score.ToString("n0");
     }
 }
