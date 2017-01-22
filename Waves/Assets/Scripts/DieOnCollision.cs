@@ -25,11 +25,12 @@ public class DieOnCollision : MonoBehaviour
 
     void Update()
     {
-        if (_canRestart && Input.GetKeyDown(KeyCode.Space))
+        if (_canRestart && (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)))
         {
-           SceneManager.LoadScene("Game");
+            SceneManager.LoadScene("Game");
         }
     }
+
     private void Die()
     {
         _movePlayer.Die();
