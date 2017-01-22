@@ -9,6 +9,7 @@ public class DieOnCollision : MonoBehaviour
     private bool _canRestart;
     public GameObject pcDied;
     public GameObject mobileDied;
+    public float WaitTime = 0.5f;
 
     void Awake()
     {
@@ -41,7 +42,7 @@ public class DieOnCollision : MonoBehaviour
 
     IEnumerator Wait()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(WaitTime);
         _canRestart = true;
         if (Application.isMobilePlatform)
         {
