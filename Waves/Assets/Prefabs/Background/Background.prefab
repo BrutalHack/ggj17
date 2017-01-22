@@ -51,13 +51,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5ebcbbba078647469c0068e738cf169, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 1269027512013556, guid: dd2e3db435b2248a892aecdf9b6c0666, type: 2}
+  Player: {fileID: 0}
   StartPrefab: {fileID: 1412111966060364, guid: cfcdd13a91f06434888b1574ca6a7a80,
     type: 2}
   StartMultiplier: -0.1
   PartPrefabs:
-  - {fileID: 1232513388653874, guid: 718e152bc7b99144bab2be5a62d18ea7, type: 2}
-  - {fileID: 1074688851131486, guid: effca33bf3bff674fa827d86b13aeb49, type: 2}
+  - {fileID: 1585933678344588, guid: 948c2cae2f1ecbe4f88494c70d4d91de, type: 2}
+  - {fileID: 1585933678344588, guid: 948c2cae2f1ecbe4f88494c70d4d91de, type: 2}
   - {fileID: 1256474023625652, guid: 1bc0043678834c140b8ef1032b92850d, type: 2}
   - {fileID: 1904596677469542, guid: b8d06c9d4f862754c93dfbdbc73caddd, type: 2}
+  BackgroundSprites:
+  - {fileID: 21300000, guid: de357fc11636d5c4181e03eb3f0a65b6, type: 3}
+  - {fileID: 21300000, guid: 89817bc82c12c0447a8fc4fe8f2ffda6, type: 3}
+  - {fileID: 21300000, guid: 89f509f46a2741349b09062224529c1d, type: 3}
   _partUpdatePositionX: 0

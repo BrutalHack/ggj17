@@ -98,11 +98,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114509902681514738, guid: 727c7fd560e24054aa48ccbff86753b2,
-        type: 2}
-      propertyPath: BackgroundSprites.Array.size
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 4859487782220842, guid: 727c7fd560e24054aa48ccbff86753b2, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -140,24 +135,6 @@ Prefab:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1872718570}
-    - target: {fileID: 114509902681514738, guid: 727c7fd560e24054aa48ccbff86753b2,
-        type: 2}
-      propertyPath: BackgroundSprites.Array.data[0]
-      value: 
-      objectReference: {fileID: 21300000, guid: 8cb5ffcff7b88d246a0139857f45cedf,
-        type: 3}
-    - target: {fileID: 114509902681514738, guid: 727c7fd560e24054aa48ccbff86753b2,
-        type: 2}
-      propertyPath: BackgroundSprites.Array.data[1]
-      value: 
-      objectReference: {fileID: 21300000, guid: ec28f4b46630b434da916dc78946be14,
-        type: 3}
-    - target: {fileID: 114509902681514738, guid: 727c7fd560e24054aa48ccbff86753b2,
-        type: 2}
-      propertyPath: BackgroundSprites.Array.data[2]
-      value: 
-      objectReference: {fileID: 21300000, guid: 93e458bc21e0c5949ac0a5cdf9fd05f0,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 727c7fd560e24054aa48ccbff86753b2, type: 2}
   m_IsPrefabParent: 0
