@@ -130,6 +130,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114793110508000462, guid: dd2e3db435b2248a892aecdf9b6c0666,
+        type: 2}
+      propertyPath: pcDied
+      value: 
+      objectReference: {fileID: 1339132414}
+    - target: {fileID: 114793110508000462, guid: dd2e3db435b2248a892aecdf9b6c0666,
+        type: 2}
+      propertyPath: mobileDied
+      value: 
+      objectReference: {fileID: 1576255452}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd2e3db435b2248a892aecdf9b6c0666, type: 2}
   m_IsPrefabParent: 0
@@ -389,6 +399,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1694505783}
+--- !u!1 &1339132414 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1965263370525118, guid: b05dad4719b3f0647800255bae1d0818,
+    type: 2}
+  m_PrefabInternal: {fileID: 2037982797}
+--- !u!1 &1576255452 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1802139676105674, guid: b05dad4719b3f0647800255bae1d0818,
+    type: 2}
+  m_PrefabInternal: {fileID: 2037982797}
 --- !u!4 &1578130667 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4344631690600704, guid: d19a2ff340d714dbc95f7df33e26b04f,
