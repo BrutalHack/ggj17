@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4355160399634878}
   - component: {fileID: 135711717216123092}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ColliderLeft3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36,7 +36,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4919767351277086}
   - component: {fileID: 135204965006886850}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ColliderLeft2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52,7 +52,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4431973916314222}
   - component: {fileID: 212897441814566450}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pilze_gross3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83,7 +83,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4559956475206580}
   - component: {fileID: 135805358581380816}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ColliderRight2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,7 +99,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4187170008066700}
   - component: {fileID: 136398786825525648}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ColliderRight1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115,7 +115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4879959097554574}
   - component: {fileID: 135335232246048548}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ColligerLeft4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131,7 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4366032264220252}
   - component: {fileID: 135797977006390390}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ColliderLeft1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147,7 +147,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4824626836198618}
   - component: {fileID: 65777691149840064}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ColliderBottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
