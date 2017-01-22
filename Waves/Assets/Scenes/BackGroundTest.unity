@@ -135,6 +135,24 @@ Prefab:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1872718570}
+    - target: {fileID: 114509902681514738, guid: 727c7fd560e24054aa48ccbff86753b2,
+        type: 2}
+      propertyPath: PartPrefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 1312673420471358, guid: 233347988bb72054ca756120a4af3f8a,
+        type: 2}
+    - target: {fileID: 114509902681514738, guid: 727c7fd560e24054aa48ccbff86753b2,
+        type: 2}
+      propertyPath: PartPrefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 1585933678344588, guid: 948c2cae2f1ecbe4f88494c70d4d91de,
+        type: 2}
+    - target: {fileID: 114509902681514738, guid: 727c7fd560e24054aa48ccbff86753b2,
+        type: 2}
+      propertyPath: PartPrefabs.Array.data[3]
+      value: 
+      objectReference: {fileID: 1312673420471358, guid: 233347988bb72054ca756120a4af3f8a,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 727c7fd560e24054aa48ccbff86753b2, type: 2}
   m_IsPrefabParent: 0
