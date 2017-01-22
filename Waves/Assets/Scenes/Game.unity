@@ -180,7 +180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5ebcbbba078647469c0068e738cf169, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 585126131}
+  Player: {fileID: 585126132}
   StartPrefab: {fileID: 1412111966060364, guid: cfcdd13a91f06434888b1574ca6a7a80,
     type: 2}
   StartMultiplier: -0.1
@@ -238,7 +238,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 200
-  AngularSpeed: 1
+  SpeedIncrease: 100
+  AngularSpeed: 1.5
   _maxAngle: 60
 --- !u!96 &585126133
 TrailRenderer:
@@ -391,7 +392,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 42
+  m_Radius: 32
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &585126136
 Transform:
@@ -418,6 +419,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b4fa4bea4af9494986ecce36c8b6b35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pcDied: {fileID: 2037982799}
+  mobileDied: {fileID: 2037982798}
 --- !u!54 &585126138
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -643,3 +646,13 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b05dad4719b3f0647800255bae1d0818, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &2037982798 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1802139676105674, guid: b05dad4719b3f0647800255bae1d0818,
+    type: 2}
+  m_PrefabInternal: {fileID: 2037982797}
+--- !u!1 &2037982799 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1965263370525118, guid: b05dad4719b3f0647800255bae1d0818,
+    type: 2}
+  m_PrefabInternal: {fileID: 2037982797}
