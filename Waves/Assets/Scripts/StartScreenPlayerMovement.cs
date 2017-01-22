@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class MovePlayer : MonoBehaviour
+public class StartScreenPlayerMovement: MonoBehaviour
 {
     private bool _movingUp;
     public float Speed = 1;
@@ -29,7 +28,6 @@ public class MovePlayer : MonoBehaviour
     {
         if (!_dead && (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)))
         {
-            _targetAngle = -_targetAngle;
             _movingUp = !_movingUp;
         }
     }
@@ -40,13 +38,32 @@ public class MovePlayer : MonoBehaviour
         {
             return;
         }
-        if (_movingUp && (_rigidbody.rotation.eulerAngles.z < 60 || _rigidbody.rotation.eulerAngles.z > 270))
+        if (_movingUp)
         {
-            RotatePlayer();
+            if (_rigidbody.rotation.eulerAngles.z < 60 || _rigidbody.rotation.eulerAngles.z > 270)
+            {
+                RotatePlayer();
+            }
+            else
+            {
+                _movingUp = !_movingUp;
+                _targetAngle = -_targetAngle;
+                Debug.Log("Switch to MoveDown");
+            }
         }
-        else if (!_movingUp && (_rigidbody.rotation.eulerAngles.z < 90 || _rigidbody.rotation.eulerAngles.z > 300))
+        else if (!_movingUp)
         {
-            RotatePlayer();
+            if (_rigidbody.rotation.eulerAngles.z < 90 || _rigidbody.rotation.eulerAngles.z > 300)
+            {
+                RotatePlayer();
+
+            }
+            else
+            {
+                _movingUp = !_movingUp;
+                _targetAngle = -_targetAngle;
+                Debug.Log("Switch to MoveUp");
+            }
         }
         _rigidbody.velocity = transform.right * Speed;
     }
@@ -61,6 +78,7 @@ public class MovePlayer : MonoBehaviour
     {
         Speed += SpeedIncrease;
     }
+
     public void Die()
     {
         _dead = true;
