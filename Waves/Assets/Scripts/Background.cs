@@ -35,6 +35,16 @@ public class Background : MonoBehaviour
             AppendRandomPart();
             Player.IncreaseSpeed();
         }
+
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            CloseGame();
+        }
+    }
+
+    public void CloseGame()
+    {
+        Application.Quit();
     }
 
     private float GetPlayerPositionX()
