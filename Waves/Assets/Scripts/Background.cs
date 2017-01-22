@@ -9,6 +9,7 @@ public class Background : MonoBehaviour
     public GameObject StartPrefab;
     public float StartMultiplier = -0.1f;
     public GameObject[] PartPrefabs;
+    public Sprite[] BackgroundSprites;
     private Random _random = new Random();
     private List<GameObject> _existingParts = new List<GameObject>();
     private int _id;
@@ -48,6 +49,7 @@ public class Background : MonoBehaviour
     private void CreateStartPart()
     {
         GameObject part = Instantiate(StartPrefab, transform);
+        SetBackground(part);
         part.name = GenerateNextName();
         Vector3 newPosition = part.transform.position;
         newPosition.x += part.GetComponent<Renderer>().bounds.size.x * StartMultiplier;
@@ -76,6 +78,7 @@ public class Background : MonoBehaviour
     {
         int randomPosition = _random.Next(0, PartPrefabs.Length);
         GameObject part = Instantiate(PartPrefabs[randomPosition], transform);
+        SetBackground(part);
         part.name = GenerateNextName();
         _existingParts.Add(part);
         return part;
@@ -92,5 +95,11 @@ public class Background : MonoBehaviour
         GameObject oldestPart = _existingParts[first];
         _existingParts.RemoveAt(first);
         Destroy(oldestPart);
+    }
+
+    private void SetBackground(GameObject part)
+    {
+        Sprite background = BackgroundSprites[(_id) % BackgroundSprites.Length];
+        part.GetComponent<SpriteRenderer>().sprite = background;
     }
 }
