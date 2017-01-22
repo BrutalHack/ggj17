@@ -54,10 +54,11 @@ MonoBehaviour:
   Player: {fileID: 0}
   StartPrefab: {fileID: 1412111966060364, guid: cfcdd13a91f06434888b1574ca6a7a80,
     type: 2}
-  StartMultiplier: -0.1
+  StartMultiplier: -0.2
   PartPrefabs:
   - {fileID: 1585933678344588, guid: 948c2cae2f1ecbe4f88494c70d4d91de, type: 2}
   - {fileID: 1312673420471358, guid: 233347988bb72054ca756120a4af3f8a, type: 2}
+  - {fileID: 1867694701924370, guid: d67ffabec377ee344a1cd0045b926918, type: 2}
   - {fileID: 1633707612898608, guid: e61651cb8d2e0494fbfda9b772c79c17, type: 2}
   - {fileID: 1290877858458876, guid: dee8b5508d8bf4e2d82929fb5d8596fd, type: 2}
   - {fileID: 1292549296820656, guid: 7de3a6c88515d4e61b2cb019c55d31ca, type: 2}

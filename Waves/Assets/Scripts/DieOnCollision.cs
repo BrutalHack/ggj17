@@ -7,8 +7,7 @@ public class DieOnCollision : MonoBehaviour
     private int _layerIndex;
     private MovePlayer _movePlayer;
     private bool _canRestart;
-    public GameObject pcDied;
-    public GameObject mobileDied;
+    public GameObject DiesPopup;
     public float WaitTime = 0.5f;
 
     void Awake()
@@ -44,13 +43,6 @@ public class DieOnCollision : MonoBehaviour
     {
         yield return new WaitForSeconds(WaitTime);
         _canRestart = true;
-        if (Application.isMobilePlatform)
-        {
-            mobileDied.SetActive(true);
-        }
-        else
-        {
-            pcDied.SetActive(true);
-        }
+        DiesPopup.SetActive(true);
     }
 }
