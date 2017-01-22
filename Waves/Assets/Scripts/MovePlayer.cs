@@ -22,9 +22,9 @@ public class MovePlayer : MonoBehaviour
 
     void Start()
     {
-        _targetAngle = 60;
+        _targetAngle = -60;
         _rigidbody.velocity = Vector3.right;
-        _movingUp = true;
+        _movingUp = false;
         _dead = false;
     }
 
