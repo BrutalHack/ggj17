@@ -168,7 +168,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1989416659055044}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1563, y: 9, z: 0}
+  m_LocalPosition: {x: -600, y: 9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4447917029981356}
@@ -382,7 +382,7 @@ MonoBehaviour:
   _maxAngle: 60
   DeathParticleSystem: {fileID: 198704115059998772}
   GlowParticleSystem: {fileID: 198871750356546100}
-  AngularSpeedIncrease: 0.25
+  AngularSpeedIncrease: 0.15
 --- !u!114 &114793110508000462
 MonoBehaviour:
   m_ObjectHideFlags: 1

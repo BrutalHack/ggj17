@@ -100,7 +100,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4318751875980576, guid: dd2e3db435b2248a892aecdf9b6c0666, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -1563
+      value: -600
       objectReference: {fileID: 0}
     - target: {fileID: 4318751875980576, guid: dd2e3db435b2248a892aecdf9b6c0666, type: 2}
       propertyPath: m_LocalPosition.y
@@ -140,6 +140,11 @@ Prefab:
       propertyPath: mobileDied
       value: 
       objectReference: {fileID: 859948909}
+    - target: {fileID: 114766720110800460, guid: dd2e3db435b2248a892aecdf9b6c0666,
+        type: 2}
+      propertyPath: AngularSpeedIncrease
+      value: 0.15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd2e3db435b2248a892aecdf9b6c0666, type: 2}
   m_IsPrefabParent: 0
@@ -528,6 +533,91 @@ Prefab:
       propertyPath: Player
       value: 
       objectReference: {fileID: 1694505783}
+    - target: {fileID: 224430836817757080, guid: b05dad4719b3f0647800255bae1d0818,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224430836817757080, guid: b05dad4719b3f0647800255bae1d0818,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224430836817757080, guid: b05dad4719b3f0647800255bae1d0818,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224430836817757080, guid: b05dad4719b3f0647800255bae1d0818,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224430836817757080, guid: b05dad4719b3f0647800255bae1d0818,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 224430836817757080, guid: b05dad4719b3f0647800255bae1d0818,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 224430836817757080, guid: b05dad4719b3f0647800255bae1d0818,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 114744872979828812, guid: b05dad4719b3f0647800255bae1d0818,
+        type: 2}
+      propertyPath: m_Color.a
+      value: 0.647
+      objectReference: {fileID: 0}
+    - target: {fileID: 114744872979828812, guid: b05dad4719b3f0647800255bae1d0818,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114744872979828812, guid: b05dad4719b3f0647800255bae1d0818,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114744872979828812, guid: b05dad4719b3f0647800255bae1d0818,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114744872979828812, guid: b05dad4719b3f0647800255bae1d0818,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114431318462121458, guid: b05dad4719b3f0647800255bae1d0818,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0.903
+      objectReference: {fileID: 0}
+    - target: {fileID: 114431318462121458, guid: b05dad4719b3f0647800255bae1d0818,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.341
+      objectReference: {fileID: 0}
+    - target: {fileID: 114431318462121458, guid: b05dad4719b3f0647800255bae1d0818,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0.097
+      objectReference: {fileID: 0}
+    - target: {fileID: 114431318462121458, guid: b05dad4719b3f0647800255bae1d0818,
+        type: 2}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114431318462121458, guid: b05dad4719b3f0647800255bae1d0818,
+        type: 2}
+      propertyPath: m_FontData.m_Alignment
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b05dad4719b3f0647800255bae1d0818, type: 2}
   m_IsPrefabParent: 0
