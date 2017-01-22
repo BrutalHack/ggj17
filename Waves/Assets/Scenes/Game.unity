@@ -143,7 +143,7 @@ Prefab:
     - target: {fileID: 114766720110800460, guid: dd2e3db435b2248a892aecdf9b6c0666,
         type: 2}
       propertyPath: AngularSpeedIncrease
-      value: 0.1
+      value: 0.15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd2e3db435b2248a892aecdf9b6c0666, type: 2}
