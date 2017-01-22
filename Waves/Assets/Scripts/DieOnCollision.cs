@@ -30,7 +30,7 @@ public class DieOnCollision : MonoBehaviour
     {
         if (_canRestart && (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)))
         {
-            SceneManager.LoadScene("Game");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 
