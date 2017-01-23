@@ -53,7 +53,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4344972161577262}
   - component: {fileID: 212972054987512866}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pilze_gross3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4899645297375070}
   - component: {fileID: 135114815236671150}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ColliderLeft3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -148,7 +148,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4709721062570926}
   - component: {fileID: 135695031600800082}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ColliderLeft2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -389,7 +389,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4336527255223048}
   - component: {fileID: 135658397005845958}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ColliderRight2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -405,7 +405,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4175970890273372}
   - component: {fileID: 135574584737472100}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ColligerLeft4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -438,7 +438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4477011013449788}
   - component: {fileID: 135139480115090986}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ColliderLeft1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -628,7 +628,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4635154279040598}
   - component: {fileID: 136852646931570830}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ColliderRight1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -707,7 +707,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4323320212084850}
   - component: {fileID: 65267842941666950}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ColliderBottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1137,7 +1137,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1649148684145766}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 42.421173, y: -10.5489435, z: 0}
+  m_LocalPosition: {x: 3885.2747, y: 910.6294, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4204586169472092}
