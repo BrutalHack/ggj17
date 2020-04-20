@@ -1,4 +1,4 @@
-# Flying Weapon (MiniLD 62)
+# Shroomy Pleasures (Global Game Jam 2017)
 
 ![Screenshot](https://brutalhack.com/wp-content/uploads/2017/01/ingame01.png)
 
